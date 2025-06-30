@@ -1,0 +1,60 @@
+/* Base styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Headings */
+h1 {
+  font-size: 2em;
+  color: #005a9c;
+  margin-bottom: 10px;
+}
+h2, h3 {
+  color: #0078d4;
+  margin-top: 30px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1em;
+}
+
+/* Lists and Tables */
+ul {
+  padding-left: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #e5f1fb;
+}
+
+/* Header and Footer */
+header, footer {
+  background-color: #eef3f8;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Links */
+a {
+  color: #0078d4;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
